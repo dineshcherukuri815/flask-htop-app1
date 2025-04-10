@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route('/htop')
 def htop():
    
-    full_name = "Cherukuri Dinesh"
+    full_name = "Dinesh Kumar"
 
     
     username = getpass.getuser()
